@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RockPaperSissors</string>
+    <string name="app_name">RockPaperScissors</string>
     <string name="button_rock">Rock</string>
     <string name="button_paper">Paper</string>
     <string name="button_scissors">Scissors</string>

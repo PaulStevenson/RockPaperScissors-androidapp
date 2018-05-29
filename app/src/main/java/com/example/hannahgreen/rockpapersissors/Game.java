@@ -17,17 +17,17 @@ public class Game {
         ChoiceType androidChoice = android.getRandomChoice();
 
         if (userChoice == ChoiceType.PAPER && androidChoice == ChoiceType.ROCK){
-            return "User wins";}
+            return "Player wins with Paper";}
         else if (userChoice == ChoiceType.ROCK && androidChoice == ChoiceType.PAPER)
-            return "Android wins";
+            return "Sorry, Android wins with Rock";
         else if (userChoice == ChoiceType.PAPER && androidChoice == ChoiceType.SCISSORS)
-            return "Android wins";
+            return "Sorry, Android wins with Paper";
         else if (userChoice == ChoiceType.SCISSORS && androidChoice == ChoiceType.PAPER)
-            return "User wins";
+            return "Player wins with Scissors";
         else if (userChoice == ChoiceType.ROCK && androidChoice == ChoiceType.SCISSORS)
-            return "User wins";
+            return "Player wins with Rock";
         else if (userChoice == ChoiceType.SCISSORS && androidChoice == ChoiceType.ROCK)
-            return "Android wins";
+            return "Sorry, Android wins with Scissors";
         else if ( userChoice == androidChoice);{
             return "It's a draw";}
     }
